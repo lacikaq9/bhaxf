@@ -1,0 +1,104 @@
+<chapter xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude" version="5.0" xml:lang="hu">
+    <info>
+        <title>Helló, Gutenberg!</title>
+        <keywordset>
+            <keyword/>
+        </keywordset>
+        <cover>
+            <para>
+                Programozás tankönyvek rövid olvasónaplói.
+            </para>
+        </cover>
+    </info>
+    <section>
+        <title>Programozási alapfogalmak</title>
+        <para>         
+            <citation>PICI</citation>       
+        </para>
+        
+        <para>Első rátekintésre láttam hogy ez a könyv lesz a legszárazabb a 3 közül és igazam is lett.Mint a cim sugalja az ebben a reszben bevezet minket a könyv programozási nyelvi szintek.Bevezet hogy a számitógép hogy látja a kódunkat és hogy futtatja le és még kitér az imperativ és deklerativ nyelvekre.</para>
+        
+        <para>Ez a hét a programozási nyelv alapeszközeit,alapfogalmait mutatja be. Karakterkészleteket olvashatunk azon belül cimkék stb.Ez után a lexikális egyégekről van szó.Olvashatunk a többkarakteres szimbólumokról, a szimbolikus nevekről, a címkékről, megjegyzésekről és iterálokról, rengeteg példával.Majd a hét vége felé belevágunk az adattipusok világába.Azután meg tanulmányozzuk az alapelemek minden féle nyelvekben</para>
+        
+        <para>Kifejezésekről olvashatunk ezen a héten amely C programnyelvben mutatja be</para>
+        
+        <para>Utasitásokról van szó 9 fajta van: 
+1. Értékadó utasítás
+2. Üres utasítás
+3. Ugró utasítás
+4. Elágaztató utasítások ( Kétirányú elágaztató utasítás (feltételes utasítás),Többirányú elágaztató utasítás)
+5. Ciklusszervezı utasítások (Feltételes ciklus,Elıírt lépésszámú ciklus,Felsorolásos ciklus,Végtelen ciklus,Összetett ciklus)
+6. Hívó utasítás
+7. Vezérlésátadó utasítások
+8. I/O utasítások
+9. Egyéb utasítások 
+A hét ezeket bőven kifejti példákkal több fajta programozási nyelveken.</para>
+        
+        <para>Programok Szerkezet az 5.hét mondandója. Itt tanulunk az alprogramokról erről ugrunk a  Hívási lánc, rekurzió témakörre.Utánna kitérünk Másodlagos belépési pontok</para>
+        
+        <para>A hatodik hét, ami egy kihétten rövid hét, az absztrakt adattípusokról szól, amik megvalósítják a bezárást vagy információ rejtést.</para>
+        
+        <para>A hetedik hét a csomagokról szól.Főbb elemei:típus változó nevesített konstans saját kivétel alprogram csomag.Plusz a könyv leirja ADÁban a komplementálását</para>
+        
+        <para>A 8.hét az ADA forditáráról szól ezt 2 részre töri: Pragmák meg Forditási egységek ezek a: alprogram specifikáció , alprogram törzs , csomag specifikáció , csomag törzs , fordítási alegység , valamint ezek tetszıleges kombinációja szól</para>
+        
+        <para>A 9. hét a kivételkezelésről szól. Leginkább a  PL/I kivételkezelésről és az ada kivételkezelésről. </para>
+        
+        <para>10.hét a generikus programozást fejti ki ADA programozási nyelven</para>
+        
+        <para>11.hét témája a párhuzamos programozás ami a felépülı gépek szekvenciálisak: a processzor a programnak
+megfelelı sorrendben hajtja végre az utasításokat elemi lépésenként. Pár beszélt téma</para>
+        <para>Véleményem a könyvről: Túl száraz.</para>
+    </section>        
+    <section>
+        <title>Programozás bevezetés</title>
+        <para>                
+            <citation>KERNIGHANRITCHIE</citation>
+        </para>
+        <para>
+            Megoldás videó: <link xlink:href="https://youtu.be/zmfT9miB-jY">https://youtu.be/zmfT9miB-jY</link>
+        </para>
+        <para>Könyv első része szóval az alapokat fekteti le mint pl: változók, állandók, aritmetika,függvények, vezérlési szerkezetek,alap be/ki-vitel. Ezeknek az ismertetésével az olvasó kicsit belekóstól a programozás világába ez után mint minden tutoriál ami csak létezik jön a hello world példa bár itt Hello mindenkinek nevezzük. Persze itt nem állunk le második feladat az egy Celzius és Farenheites táblázatot kiíró program.Harmadik feladatban már meg is kapjuk a klasszikus for ciklust. Ezek után kapunk egy szimbólikus állandókat.5 alhétben karakterekkel való műveleteket látjuk pl:beolvasás,sorok számlálása.Utánna látunk egy rész tömbökkel való dolgok.Utolsó előtti részbe kapunk egy hatványozási részt.Végen befejezve beletekitunk az argumentumok világába</para>
+        <para> 
+		A C programnyelvre az jellemző, hogy kifejezetten kevés változótípust használ.  int, double, char, float típusok jellemzőek.
+		</para> 
+		<para>  
+		Az állandóknak van típusa és minősítője.
+		</para> 
+        <para> 
+		A változókat mindig deklarálnunk kell. Ha C nyelben akarunk változót deklarálni akkor a változóknáv első karakterének betűnek kell lennie. 
+		</para>  
+        <para> 
+		Egy olyan kifejezést hogy v = v + 241 helyettesíthetünk v += 241 -el. v += jelkombinációt értékadó operátornak nevezzük.
+		</para> 
+        <para> 
+		A feltételt az if segítségével határozzuk meg. Az else az if hamis ágának utasítását adja meg, használata nem kötelező. Többszörös feltétel esetén az if-else egymásba agyazása a megoldás, illetve a switch-case. Amennyiben egyik case sem hajtódott végre, úgy a default ág fut le, ez azonban nem kötelező. A switch-case-t a break utasítással zárjuk le.
+		</para> 
+        <para> 
+		A két leggyakoribb ciklus a for és a while. Ezek a tipusu ciklusok addig futnak amig false-t vagyis hamist nem kapnak.
+		</para> 
+        <para> 
+		A do-while kap 2 utasitast do(csinald) while(amig) ez program minden alkalommal legalabb 1x lefut. 
+		</para> 
+        <para> 
+		A break parancsal megállitja a programot és continue -val megkezdhetjük a következő iterációs lépés. 
+		</para> 
+        <para> 
+A goto utasítással megadott címekre ugorhatunk és onna nfolytatjuk. Nem kedvelt megoldás.
+</para>       
+
+    </section>        
+    <section>
+        <title>Programozás</title>
+        <para>                
+            <citation>BMECPP</citation>
+        </para>
+        <para>17. oldal objektumok és osztályok cimmel startol ahol el is kezdi magyarázni hogy mik azok az objektumorientált nyelvek alapelveit.Ezekután rátérunk az egységbe zárás c++-ban a ahol elmagyarázza mi az a tagváltozók és mik a tagfüggvények.Átbeszéli mik azok a konstruktorok és a destruktorok.A következő részt tökre szerettem mert sokat segitett végre megértettem hogy kell dinamikusan memóriét kezelni na meg persze a másoló konstruktort elmagyarázta és példáknak hála megértettem hogy is kell őket használni.
+        44. oldaltól kitérünk a Friend függvények és osztályokra pontosan leirja példákkal teljesen érthető. 47 oldaltól tagváltozókat beszéli át a könyv utánna a statikus tagokat és végül a beágyazott definiókat</para>
+		<para>Operátorok és túlterhelésük. C++ előzményekkel kezdődik, és beszél az operátorokról általában is. Fügvényszintaxis és a túlterhelés a következő, itt is sok sok példa és kódcsipetke melyek sokat segitenek az elméleti rész felfogásában.</para>
+		<para><emphasis role="strong">utolsó rész</emphasis></para>
+		<para>A C nyelvben lehetetlen mivel úgy lett megirva de van egy kiskapu azt kell csinalni hogy  a változóra mutató mutatót adunk át. C++-ban ez lehetséges, a referencia szerinti paraméterátadással</para>
+		<para><emphasis role="strong">Összesség:</emphasis></para>
+		<para>A három könyv közül ezt találom a leghasznosabban mert minden elméleti részhez van egy kis c kód részlet és amikor azokon magyarázza el bármilyen nehéznek tűnő elméleti részt levezet a példákon keresztül</para>
+		</section>        
+</chapter>                
